@@ -179,7 +179,7 @@
                 console.error('Error loading India GeoJSON:', error);
             });
 
-        fetch('startup.json')
+        fetch('Startup.json')
             .then(response => response.json())
             .then(data => {
                 geojsonLayer = L.geoJSON(data, {
